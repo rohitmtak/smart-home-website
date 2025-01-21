@@ -29,10 +29,10 @@ faqs.forEach(faq => {
         faq.classList.toggle('open');
         // change icon
         const icon = faq.querySelector('.faq__icon i');
-        if(icon.className === 'uil uil-plus') {
-            icon.className = 'uil uil-minus';
+        if(icon.className === 'fa-regular fa-square-plus') {
+            icon.className = 'fa-solid fa-square-minus';
         } else {
-            icon.className = 'uil uil-plus';
+            icon.className = 'fa-regular fa-square-plus';
         }
     })
 })
